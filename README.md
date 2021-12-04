@@ -21,4 +21,4 @@ https://streamable.com/lwhr27
 
 # Download link:
 
-Not Yet
+https://forum.cfx.re/t/release-esx-reloading-system/4784692
