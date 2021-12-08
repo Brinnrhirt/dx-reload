@@ -8,7 +8,7 @@ Config.ShotgunItem = "shotgun_ammo"
 Config.SniperItem = "sniper_ammo" 
 Config.MGItem = "mg_ammo" 
 
-Config.SpamDelay = 1500                 --If trigger and error; How long delay until next trigger.
+Config.SpamDelay = 3500                 --If trigger and error; How long delay until next trigger.
 Config.CheckAndApplyAmmo = true         --Weapons that have ammo beyond the clip gets its ammo automatically removed.
 Config.DisableWeaponMeleeHit = true     --Remove melee hits while wielding a weapon.
 

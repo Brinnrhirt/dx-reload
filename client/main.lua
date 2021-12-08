@@ -9,8 +9,8 @@ Citizen.CreateThread(function()
 	end
 end)
 
-local sleep = 5
-local deepSleep = 100
+local sleep = 20
+local deepSleep = 200
 local superDeepSleep = Config.SpamDelay
 local antiSpam = false
 
@@ -33,6 +33,7 @@ Citizen.CreateThread(function()
 			if not antiSpam then
 				if IsControlJustReleased(0, 45) then
 					TriggerServerEvent("dx-reload:checkInventory", typeammo)
+					Citizen.Wait(deepSleep)
 				end
 			end
 
